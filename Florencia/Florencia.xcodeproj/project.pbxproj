@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6ABA8F4B21B0B8AA002AAE46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABA8F4A21B0B8AA002AAE46 /* AppDelegate.swift */; };
+		6ABA8F4D21B0B8AA002AAE46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABA8F4C21B0B8AA002AAE46 /* ViewController.swift */; };
+		6ABA8F5021B0B8AA002AAE46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ABA8F4E21B0B8AA002AAE46 /* Main.storyboard */; };
+		6ABA8F5221B0B8AA002AAE46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ABA8F5121B0B8AA002AAE46 /* Assets.xcassets */; };
+		6ABA8F5521B0B8AA002AAE46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ABA8F5321B0B8AA002AAE46 /* LaunchScreen.storyboard */; };
+		6ABA8F6021B0B8AB002AAE46 /* FlorenciaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABA8F5F21B0B8AB002AAE46 /* FlorenciaTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6ABA8F5C21B0B8AB002AAE46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ABA8F3F21B0B8AA002AAE46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ABA8F4621B0B8AA002AAE46;
+			remoteInfo = Florencia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6ABA8F4721B0B8AA002AAE46 /* Florencia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Florencia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ABA8F4A21B0B8AA002AAE46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6ABA8F4C21B0B8AA002AAE46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6ABA8F4F21B0B8AA002AAE46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6ABA8F5121B0B8AA002AAE46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6ABA8F5421B0B8AA002AAE46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6ABA8F5621B0B8AA002AAE46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ABA8F5B21B0B8AB002AAE46 /* FlorenciaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlorenciaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ABA8F5F21B0B8AB002AAE46 /* FlorenciaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlorenciaTests.swift; sourceTree = "<group>"; };
+		6ABA8F6121B0B8AB002AAE46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6ABA8F4421B0B8AA002AAE46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABA8F5821B0B8AB002AAE46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6ABA8F3E21B0B8AA002AAE46 = {
+			isa = PBXGroup;
+			children = (
+				6ABA8F4921B0B8AA002AAE46 /* Florencia */,
+				6ABA8F5E21B0B8AB002AAE46 /* FlorenciaTests */,
+				6ABA8F4821B0B8AA002AAE46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6ABA8F4821B0B8AA002AAE46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6ABA8F4721B0B8AA002AAE46 /* Florencia.app */,
+				6ABA8F5B21B0B8AB002AAE46 /* FlorenciaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6ABA8F4921B0B8AA002AAE46 /* Florencia */ = {
+			isa = PBXGroup;
+			children = (
+				6ABA8F4A21B0B8AA002AAE46 /* AppDelegate.swift */,
+				6ABA8F4C21B0B8AA002AAE46 /* ViewController.swift */,
+				6ABA8F4E21B0B8AA002AAE46 /* Main.storyboard */,
+				6ABA8F5121B0B8AA002AAE46 /* Assets.xcassets */,
+				6ABA8F5321B0B8AA002AAE46 /* LaunchScreen.storyboard */,
+				6ABA8F5621B0B8AA002AAE46 /* Info.plist */,
+			);
+			path = Florencia;
+			sourceTree = "<group>";
+		};
+		6ABA8F5E21B0B8AB002AAE46 /* FlorenciaTests */ = {
+			isa = PBXGroup;
+			children = (
+				6ABA8F5F21B0B8AB002AAE46 /* FlorenciaTests.swift */,
+				6ABA8F6121B0B8AB002AAE46 /* Info.plist */,
+			);
+			path = FlorenciaTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6ABA8F4621B0B8AA002AAE46 /* Florencia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ABA8F6421B0B8AB002AAE46 /* Build configuration list for PBXNativeTarget "Florencia" */;
+			buildPhases = (
+				6ABA8F4321B0B8AA002AAE46 /* Sources */,
+				6ABA8F4421B0B8AA002AAE46 /* Frameworks */,
+				6ABA8F4521B0B8AA002AAE46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Florencia;
+			productName = Florencia;
+			productReference = 6ABA8F4721B0B8AA002AAE46 /* Florencia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6ABA8F5A21B0B8AB002AAE46 /* FlorenciaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ABA8F6721B0B8AB002AAE46 /* Build configuration list for PBXNativeTarget "FlorenciaTests" */;
+			buildPhases = (
+				6ABA8F5721B0B8AB002AAE46 /* Sources */,
+				6ABA8F5821B0B8AB002AAE46 /* Frameworks */,
+				6ABA8F5921B0B8AB002AAE46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ABA8F5D21B0B8AB002AAE46 /* PBXTargetDependency */,
+			);
+			name = FlorenciaTests;
+			productName = FlorenciaTests;
+			productReference = 6ABA8F5B21B0B8AB002AAE46 /* FlorenciaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6ABA8F3F21B0B8AA002AAE46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Juan Vargas";
+				TargetAttributes = {
+					6ABA8F4621B0B8AA002AAE46 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					6ABA8F5A21B0B8AB002AAE46 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6ABA8F4621B0B8AA002AAE46;
+					};
+				};
+			};
+			buildConfigurationList = 6ABA8F4221B0B8AA002AAE46 /* Build configuration list for PBXProject "Florencia" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6ABA8F3E21B0B8AA002AAE46;
+			productRefGroup = 6ABA8F4821B0B8AA002AAE46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6ABA8F4621B0B8AA002AAE46 /* Florencia */,
+				6ABA8F5A21B0B8AB002AAE46 /* FlorenciaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6ABA8F4521B0B8AA002AAE46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABA8F5521B0B8AA002AAE46 /* LaunchScreen.storyboard in Resources */,
+				6ABA8F5221B0B8AA002AAE46 /* Assets.xcassets in Resources */,
+				6ABA8F5021B0B8AA002AAE46 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABA8F5921B0B8AB002AAE46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6ABA8F4321B0B8AA002AAE46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABA8F4D21B0B8AA002AAE46 /* ViewController.swift in Sources */,
+				6ABA8F4B21B0B8AA002AAE46 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABA8F5721B0B8AB002AAE46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABA8F6021B0B8AB002AAE46 /* FlorenciaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6ABA8F5D21B0B8AB002AAE46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6ABA8F4621B0B8AA002AAE46 /* Florencia */;
+			targetProxy = 6ABA8F5C21B0B8AB002AAE46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6ABA8F4E21B0B8AA002AAE46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ABA8F4F21B0B8AA002AAE46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6ABA8F5321B0B8AA002AAE46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ABA8F5421B0B8AA002AAE46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6ABA8F6221B0B8AB002AAE46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6ABA8F6321B0B8AB002AAE46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6ABA8F6521B0B8AB002AAE46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Florencia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Florencia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6ABA8F6621B0B8AB002AAE46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Florencia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Florencia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6ABA8F6821B0B8AB002AAE46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlorenciaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FlorenciaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Florencia.app/Florencia";
+			};
+			name = Debug;
+		};
+		6ABA8F6921B0B8AB002AAE46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlorenciaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FlorenciaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Florencia.app/Florencia";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6ABA8F4221B0B8AA002AAE46 /* Build configuration list for PBXProject "Florencia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ABA8F6221B0B8AB002AAE46 /* Debug */,
+				6ABA8F6321B0B8AB002AAE46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ABA8F6421B0B8AB002AAE46 /* Build configuration list for PBXNativeTarget "Florencia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ABA8F6521B0B8AB002AAE46 /* Debug */,
+				6ABA8F6621B0B8AB002AAE46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ABA8F6721B0B8AB002AAE46 /* Build configuration list for PBXNativeTarget "FlorenciaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ABA8F6821B0B8AB002AAE46 /* Debug */,
+				6ABA8F6921B0B8AB002AAE46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6ABA8F3F21B0B8AA002AAE46 /* Project object */;
+}
